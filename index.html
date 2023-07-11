@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숫자 추측 게임</title>
+    <style>
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+      .form input {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>숫자 추측 게임</h1>
+    <p>
+      1-100까지의 랜덤 숫자를 선택하시오. 더 높은지 더 낮은지 알려주겠습니다.
+    </p>
+    <form action="">
+      <label for="guessField">숫자를 입력하시오.</label>
+      <input type="text" id="guessField" />
+      <input type="submit" id="submit" />
+    </form>
+
+    <!-- 결과 창 -->
+    <div class="resultParas">
+      <p class="gueses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </body>
+</html>
