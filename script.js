@@ -37,6 +37,7 @@ function checkGuess(event) {
       lowOrHi.textContent = '추측한 숫자보다 낮습니다.';
     }
   }
+  guesesField.value = '';
   guesesCount++;
 }
 function setGameOver() {
